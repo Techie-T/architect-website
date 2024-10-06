@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-wrap {
+  letter-spacing: 4px;
+  color: white;
+}
+.header {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+}
+
+.logo,
+.project,
+.about,
+.contact {
+  padding: 5px;
+  transition: background-color 0.15, width 0.15 padding 0.15;
+}
+
+.br {
+  font-weight: bold;
+}
+
+.logo:hover {
+  background-color: rgb(188, 186, 186);
+}
+
+.logo {
+  width: 70%;
+}
+.project {
+  width: 15%;
+  transition: background-color 0.15, width 0.15 padding 0.15;
+}
+.project:hover {
+  background-color: rgb(188, 186, 186);
+  padding: 5px;
+}
+
+.about {
+  width: 15%;
+  transition: background-color 0.15, width 0.15 padding 0.15;
+}
+
+.about:hover {
+  background-color: rgb(188, 186, 186);
+  padding: 5px;
+}
+
+.contact:hover {
+  background-color: rgb(188, 186, 186);
+  padding: 5px;
+}
+
+#br {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.head {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 30px;
+  font-weight: 500;
+  background-image: url(img/architect.jpg);
+}
+
+#project1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrap {
+  margin: 30px 30px 5px 30px;
+}
+
+.summer-div {
+  border-top: 1px solid rgb(224, 221, 221);
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.summer1 {
+  width: 24%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.summer-house {
+  background-image: url(img/house5.jpg);
+}
+
+.summer {
+  background-color: black;
+  color: white;
+  width: 50%;
+  padding: 8px;
+}
+
+.brick-div {
+  background-image: url(img/house2.jpg);
+}
+
+.brick {
+  background-color: black;
+  color: white;
+  width: 40%;
+  padding: 8px;
+}
+
+.renovate-div {
+  background-image: url(img/house3.jpg);
+  background-size: cover;
+}
+
+.renovate {
+  background-color: black;
+  color: white;
+  width: 35%;
+  padding: 8px;
+}
+
+.barn-div {
+  background-image: url(img/house4.jpg);
+  background-size: cover;
+}
+
+.house {
+  margin-top: 15px;
+}
+
+.paragraph {
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgb(241, 238, 238);
+  padding-top: 20px;
+}
+
+.about-wrap {
+  display: flex;
+}
+
+.about-img {
+  width: 90%;
+  filter: grayscale(80%);
+  margin-top: 30px;
+}
+
+.john,
+.jane,
+.mick,
+.dan {
+  width: 25%;
+}
+.name {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 8px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: gray;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  width: 90%;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 0;
+  width: 90%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  border: none;
+  cursor: pointer;
+  font-family: Verdana, sans-serif;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  transition: background-color 0.15, box-shadow 0.15;
+}
+
+.btn:hover {
+  background-color: rgb(212, 209, 209);
+}
+
+.btn:active {
+  box-shadow: 0 0 2px black;
+}
+
+input {
+  width: 100%;
+  padding: 11px 0 11px 5px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(224, 221, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+#send {
+  background-color: rgb(241, 238, 238);
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  padding: 13px 16px;
+  font-size: 15px;
+  margin-bottom: 50px;
+  border: none;
+  transition: background-color 0.15, color 0.15;
+}
+
+#send:hover {
+  background-color: rgb(212, 209, 209);
+  color: black;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+}
+
+.anchor {
+  color: white;
+  text-decoration: underline;
+}
+.map {
+  width: 100%;
+}
